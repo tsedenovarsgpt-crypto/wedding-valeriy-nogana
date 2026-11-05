@@ -400,7 +400,7 @@ function tick(){
 tick(); setInterval(tick,1000);
 
 // Вставьте URL опубликованного Google Apps Script, чтобы ответы сохранялись в таблицу.
-const RSVP_ENDPOINT = '';
+const RSVP_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwbnmXGVie1F0UW67gA7wpvAKf217V60XaHsQ4TonvJ75M1udtK_xvAT_EJUSKM6GYN-g/exec';
 document.getElementById('rsvpForm').addEventListener('submit',async e=>{
   e.preventDefault();
   const status=document.getElementById('status');
