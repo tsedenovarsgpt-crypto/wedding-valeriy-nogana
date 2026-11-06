@@ -312,6 +312,7 @@ footer{text-align:center;padding:24px 16px 34px;font:400 10px var(--serif);lette
       <span class="date-line"></span>
     </div>
     <div class="weekday">Пятница</div>
+    <div class="weekday">17:00</div>
   </div>
 </header>
 
@@ -354,7 +355,7 @@ footer{text-align:center;padding:24px 16px 34px;font:400 10px var(--serif);lette
     </div>
   </div>
 
-  <p class="calendar-date-note">11 декабря 2026 · Пятница</p>
+  <p class="calendar-date-note">11 декабря 2026 · Пятница · 17:00</p>
 </section>
 
 <section class="venue">
@@ -385,7 +386,7 @@ footer{text-align:center;padding:24px 16px 34px;font:400 10px var(--serif);lette
 <footer>Валерий &amp; Ногана · 11.12.2026</footer>
 
 <script>
-const weddingDate = new Date('2026-12-11T18:00:00+03:00').getTime();
+const weddingDate = new Date('2026-12-11T17:00:00+03:00').getTime();
 const pad = n => String(n).padStart(2,'0');
 function tick(){
   let diff=Math.max(0,weddingDate-Date.now());
